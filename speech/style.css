@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    padding: 2rem;
+    border: 2px solid #ffc57c;
+    border-radius: 10px;
+}
+
+.box button {
+    border: 2px solid #ffc57c;
+    border-radius: 10px;
+    width: 5rem;
+    height: 2rem;
+    background-color: white;
+}
