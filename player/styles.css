@@ -1,0 +1,86 @@
+html {
+    background-color: black;
+}
+
+.mainBoxPlayer {
+    width: 110rem;
+    height: 60rem;
+    background: linear-gradient(to right, #2f57ef, #b966ef, #b966ef, #2f57ef);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 28%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass {
+    width: 100rem;
+    height: 55rem;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.boxPlayer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemPlayer {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 35rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.btnPlayer {
+    width: 10rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.4s ease-in;
+}
+
+.btnPlayer:hover {
+    transform: translateY(-10px);
+    transition: all 0.4s ease-in;
+}
+
+.boxInPlayer,
+.boxInPlayerTwo,
+.boxInPlayerThree {
+    width: 340px;
+    margin-top: 2rem;
+}
+.boxInPlayerTwo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.boxInPlayerThree {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.boxInPlayer {
+    height: 250px;
+}
+.siri,
+.siriTwo {
+    display: none;
+}
