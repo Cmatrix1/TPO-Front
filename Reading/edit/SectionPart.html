@@ -37,8 +37,8 @@
                                     <span id="titleTop" class="title">TPO 01 Reading</span>
                                     <div class="iconOn">
                                         <span class="timer">00:19</span>
-                                        <span title="Report || BUG"><img src="./img/report-svgrepo-com.svg" alt="report" width="30px" height="30px"></span>
-                                        <span onclick="darkMode()" title="Dark Mode"><img src="./img/night-mode-svgrepo-com.svg" alt="dark mode icon" width="30px" height="30px"></span>
+                                        <span style="cursor: pointer;" title="Report || BUG"><img src="./img/report-svgrepo-com.svg" alt="report" width="30px" height="30px"></span>
+                                        <span style="cursor: pointer;" onclick="darkMode()" title="Dark Mode"><img src="./img/night-mode-svgrepo-com.svg" alt="dark mode icon" width="30px" height="30px"></span>
                                     </div>
                                 </div>
                                 <div class="navItems">
@@ -74,8 +74,8 @@
                     <div class="inBoxSec">
                         <div></div>
                         <div id="mainText" class="textBox">
-                            <h3>asdd</h3>
-                            <p>Groundwater
+                            <h3 id="titleText">asdd</h3>
+                            <p id="paraText">Groundwater
                                 is the word used to describe water that saturates the ground, filling
                                 all the available spaces. By far the most abundant type of groundwater
                                 is meteoric water; this is the groundwater that circulates as part of
@@ -215,7 +215,7 @@
     <script src="../scripts/jq.js"></script>
     <script src="../scripts/moment.js"></script>
     <script src="./scripts/SectionPart.js"></script>
-    <script src="./scripts/Section-Directions.js"></script>
+    <!-- <script src="./scripts/Section-Directions.js"></script> -->
     <script
         type="text/javascript">var startY, startHeight, p = document.querySelector(".resizable"), resizer = document.querySelector(".resizer"); function initDrag(e) { startY = e.clientY, startHeight = parseInt(document.defaultView.getComputedStyle(p).height, 10), document.documentElement.addEventListener("mousemove", doDrag, !1), document.documentElement.addEventListener("mouseup", stopDrag, !1) } function doDrag(e) { p.style.height = startHeight - e.clientY + startY + "px" } function stopDrag(e) { document.documentElement.removeEventListener("mousemove", doDrag, !1), document.documentElement.removeEventListener("mouseup", stopDrag, !1) } resizer.addEventListener("mousedown", initDrag, !1)</script>
     <script

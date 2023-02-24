@@ -15,6 +15,8 @@
     <title>Test Helper</title>
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
     <link href="static/css/main.4dc2bbb7.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/Section-Directions.css">
+    <link rel="stylesheet" href="./styles/Question.css">
     <style>
         .hilight{
             padding: 1px 5px;
@@ -29,7 +31,7 @@
         <div>
             <div>
                 <div>
-                    <nav class="NavbarSection navbar navbar-inverse text-white">
+                    <!-- <nav class="NavbarSection navbar navbar-inverse text-white">
                         <div class="container-fluid">
                             <div class="w-100 mt-2">
                                 <h2 class="d-inline">TPO 01 Reading</h2><span class="float-right"><button
@@ -63,9 +65,49 @@
                                                 class="bg-white navbarb-button">Hide Timer</button></span></span></span>
                             </div>
                         </div>
+                    </nav> -->
+                    <nav>
+                        <div class="itemNavOne">
+                            <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px" height="35px"/>
+                            <h3 class="mov"> </h3>
+                            <!-- <div class="typedd">
+                            </div> -->
+                        </div>
+                        <div class="itemNavTwo">
+                            <div class="boxLinks">
+                                <div class="topBoxNav">
+                                    <span id="titleTop" class="title">TPO 01 Reading</span>
+                                    <div class="iconOn">
+                                        <span class="timer">Question 1/42</span>
+                                        <span class="timer">00:19</span>
+                                        <span style="cursor: pointer;" title="Report || BUG"><img src="./img/report-svgrepo-com.svg" alt="report" width="30px" height="30px"></span>
+                                        <span style="cursor: pointer;" onclick="darkMode()" title="Dark Mode"><img src="./img/night-mode-svgrepo-com.svg" alt="dark mode icon" width="30px" height="30px"></span>
+                                    </div>
+                                </div>
+                                <div class="navItems">
+                                    <div>
+                                        <a id="navBtn" class="highBtn" href="#"><i class="fa fa-check-square"></i>Highlight</a>
+                                        <a id="navBtn" href="#">Dashboard</a>
+                                        <a id="navBtn" href="#">TPO</a>
+                                        <a id="navBtn" href="#">Time Out</a>
+                                        <!-- <a href="#"></a> -->
+                                        <a href="#">NEXT</a>
+                                    </div>
+                                    <div>
+                                        <a id="navBtn" href="#">Report</a>
+                                        <a id="navBtn" href="#">item</a>
+                                        <a id="navBtn" href="#">item</a>
+                                        <a id="navBtn" href="#">REVIEW</a>
+                                        <!-- <a href="#"></a> -->
+                                        <a id="navBtn" href="#">item</a>
+                                        <a id="navBtn" href="#">Continue</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </nav>
                 </div>
-                <div id="sectionMainDiv" class="Section">
+                <!-- <div id="sectionMainDiv" class="Section">
                     <div class="ReadingQuestion row">
                         <div class="leftPart col-6 mr-0">
                             <p class="qustionText">The word “```incredible```” in the passage is closest in meaning to</p>
@@ -78,6 +120,83 @@
                             </p>
                         </div>
                         <div class="main_question col-6">
+                            <h3>Groundwater</h3><span><span id="shouldFocus">🔷</span>Groundwater
+                                is the word used to describe water that saturates the ground, filling
+                                all the available spaces. By far the most abundant type of groundwater
+                                is meteoric water; this is the groundwater that circulates as part of
+                                the water cycle. Ordinary meteoric water is water that has soaked into
+                                the ground from the surface, from precipitation (rain and snow) and from
+                                lakes and streams. There it remains, sometimes for long periods, before
+                                emerging at the surface again. At first thought it seems incredible
+                                that there can be enough space in the “solid” ground underfoot to hold
+                                all this water.<br><br>The necessary space is there, however, in many
+                                forms. The commonest spaces are those among the particles—sand grains
+                                and tiny pebbles—of loose, unconsolidated sand and gravel. Beds of this
+                                material, out of sight beneath the soil, are common. They are found
+                                wherever fast rivers carrying loads of coarse sediment once flowed. For
+                                example, as the great ice sheets that covered North America during the
+                                last ice age steadily melted away, huge volumes of water flowed from
+                                them. The water was always laden with pebbles, gravel, and sand, known
+                                as glacial outwash, that was deposited as the flow slowed down.<br><br>The
+                                same thing happens to this day, though on a smaller scale, wherever a
+                                sediment-laden river or stream emerges from a mountain valley onto
+                                relatively flat land, dropping its load as the current slows: the water
+                                usually spreads out fanwise, depositing the sediment in the form of a
+                                smooth, fan-shaped slope. Sediments are also dropped where a river slows
+                                on entering a lake or the sea, the deposited sediments are on a lake
+                                floor or the seafloor at first, but will be located inland at some
+                                future date, when the sea level falls or the land rises, and such beds
+                                are sometimes thousands of meters thick.<br><br>In lowland country
+                                almost any spot on the ground may overlie what was once the bed of a
+                                river that has since become buried by soil; if they are now below the
+                                water’s upper surface (the water table), the gravels and sands of the
+                                former riverbed, and its sandbars, will be saturated with groundwater.<br><br>So
+                                much for unconsolidated sediments. Consolidated (or cemented)
+                                sediments, too, contain millions of minute water-holding pores. This is
+                                because the gaps among the original grains are often not totally plugged
+                                with cementing chemicals; also, parts of the original grains may become
+                                dissolved by percolating groundwater, either while consolidation is
+                                taking place or at any time afterwards. The result is that sandstone,
+                                for example, can be as porous as the loose sand from which it was
+                                formed.<br><br>Thus a proportion of the total volume of any sediment,
+                                loose or cemented, consists of empty space. Most crystalline rocks are
+                                much more solid; a common exception is basalt, a form of solidified
+                                volcanic lava, which is sometimes full of tiny bubbles that make it very
+                                porous.<br><br>The proportion of empty space in a rock is known as its
+                                porosity. But note that porosity is not the same as permeability, which
+                                measures the ease with which water can flow through a material; this
+                                depends on the sizes of the individual cavities and the crevices linking
+                                them.<br><br>Much of the water in a sample of water-saturated sediment
+                                or rock will drain from it if the sample is put in a suitable dry place.
+                                But some will remain, clinging to all solid surfaces. It is held there
+                                by the force of surface tension without which water would drain
+                                instantly from any wet surface, leaving it totally dry. The total volume
+                                of water in the saturated sample must therefore be thought of as
+                                consisting of water that can, and water that cannot, drain away.<br><br>The
+                                relative amount of these two kinds of water varies greatly from one
+                                kind of rock or sediment to another, even though their porosities may be
+                                the same. What happens depends on pore size. If the pores are large,
+                                the water in them will exist as drops too heavy for surface tension to
+                                hold, and it will drain away; but if the pores are small enough, the
+                                water in them will exist as thin films, too light to overcome the force
+                                of surface tension holding them in place; then the water will be firmly
+                                held.<br></span>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="mainSec">
+                    <div class="inBoxSec">
+                        <div id="question" class="question">
+                            <h5>The word “```incredible```” in the passage is closest in meaning to</h5>
+                            <div>
+                                <div class="oneOptionQuestion"><label><input type="radio" name="oneOptionQuestion" id="654" value="It cannot hold rainwater for long periods of time."><span class="ml-3">It cannot hold rainwater for long periods of time.</span></label></div>
+                                <div class="oneOptionQuestion"><label><input type="radio" name="oneOptionQuestion" id="655" value="It prevents most groundwater from circulating."><span class="ml-3">It prevents most groundwater from circulating.</span></label></div>
+                                <div class="oneOptionQuestion"><label><input type="radio" name="oneOptionQuestion" id="656" value="It has the capacity to store large amounts of water."><span class="ml-3">It has the capacity to store large amounts of water.</span></label></div>
+                                <div class="oneOptionQuestion"><label><input type="radio" name="oneOptionQuestion" id="657" value="It absorbs most of the water it contains from rivers."><span class="ml-3">It absorbs most of the water it contains from rivers.</span></label></div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div id="mainText" class="textBox">
                             <h3>Groundwater</h3><span><span id="shouldFocus">🔷</span>Groundwater
                                 is the word used to describe water that saturates the ground, filling
                                 all the available spaces. By far the most abundant type of groundwater
@@ -206,6 +325,17 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        new Typed(".mov",{
+            strings: [,  "Hey calm down","You don't need to be stressed","Feel free to do your course exam"] ,
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+
+    </script>
+    <script src="./scripts/Question.js"></script>
     <script src="static/js/script.js"></script>
 </body>
 </html>

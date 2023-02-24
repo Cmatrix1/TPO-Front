@@ -194,3 +194,11 @@ nav {
 
 }
 
+
+#navBtn:hover {
+    color :rgba(239, 47, 67, 1)
+}
+
+#navBtn {
+    transition: 0.1s ease-in;
+}
