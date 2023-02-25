@@ -27,6 +27,11 @@
     display: flex;
 }
 
+.numberQU{
+    color:white;
+    border-bottom: 2px rgba(239, 47, 67, 1) solid;
+}
+
 .textBox{
     width: 40rem;
     overflow-y: scroll !important;
