@@ -26,5 +26,5 @@
 .textBox{
     overflow-y: scroll !important;
     height: 30rem;
-    width: 40rem;
+    /* width: 70rem; */
 }
