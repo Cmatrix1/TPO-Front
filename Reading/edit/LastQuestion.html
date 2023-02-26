@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/Section-Directions.css">
     <link rel="stylesheet" href="./styles/LastQuestion.css">
+    <link rel="stylesheet" href="./scripts/dragula/dist/dragula.min.css">
     <link href="static/css/main.4dc2bbb7.css" rel="stylesheet">
 </head>
 
@@ -174,38 +175,66 @@
                             <div class="dragTable row m-auto">
                                 <div class="dragRow row bg-white border-dark" rowindex="2"></div>
                             </div>
-                            <div class="dragRow mt-5 mb-5 m-auto">
-                                <div class="row">
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                            <div id="drop-target" class="boxDrop"></div>
+                        
+                            <!-- <div class="dragRow mt-5 mb-5 m-auto"> -->
+                                <!-- <div id="drag-elements" class="row">
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="0"
                                         taskname="A. Sediments that hold water were spread by glaciers and are still spread by rivers and streams."
                                         draggable="true">A. Sediments that hold water were spread by glaciers and are still
                                         spread by rivers and streams.</div>
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="1"
                                         taskname="B. Water is stored underground in beds of loose sand and gravel or in cemented sediment."
                                         draggable="true">B. Water is stored underground in beds of loose sand and gravel or
                                         in cemented sediment.</div>
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="2"
                                         taskname="C. The size of a saturated rock’s pores determines how much water it will retain when the rock is put in a dry place."
                                         draggable="true">C. The size of a saturated rock’s pores determines how much water
                                         it will retain when the rock is put in a dry place.</div>
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="3"
                                         taskname="D. Groundwater often remains underground for a long time before it emerges again."
                                         draggable="true">D. Groundwater often remains underground for a long time before it
                                         emerges again.</div>
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="4"
                                         taskname="E. Like sandstone, basalt is a crystalline rock that is very porous."
                                         draggable="true">E. Like sandstone, basalt is a crystalline rock that is very
                                         porous.</div>
-                                    <div class="droppable draggable inProgress border-dark mx-auto   mt-auto mb-auto  col-md-6"
+                                    <div class="droppable draggable inProgress border-dark qui  col-md-6"
                                         rowindex="5"
                                         taskname="F. Beds of unconsolidated sediments are typically located at inland sites that were once underwater."
                                         draggable="true">F. Beds of unconsolidated sediments are typically located at inland
-                                        sites that were once underwater.</div>
+                                        sites that were once underwater.</div> -->
+                                <!-- </div> -->
+                                <div id="drag-elements" class="dragBox">
+                                    <div class="dargElement">
+                                        <p>A. Sediments that hold water were spread by glaciers and are still
+                                            spread by rivers and streams.</p>
+                                    </div>
+                                    <div class="dargElement">
+                                        <p>B. Water is stored underground in beds of loose sand and gravel or
+                                            in cemented sediment.</p>
+                                    </div>
+                                    <div class="dargElement">
+                                        <p>C. The size of a saturated rock’s pores determines how much water
+                                            it will retain when the rock is put in a dry place.</p>
+                                    </div>
+                                    <div class="dargElement">
+                                        <p>D. Groundwater often remains underground for a long time before it
+                                            emerges again.</p>
+                                    </div>
+                                    <div class="dargElement">
+                                        <p>F. Beds of unconsolidated sediments are typically located at inland
+                                            sites that were once underwater.</p>
+                                    </div>
+                                    <div class="dargElement">
+                                        <p>E. Like sandstone, basalt is a crystalline rock that is very
+                                            porous.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -275,7 +304,10 @@
             </div>
         </div>
     </div>
+    <script src="./scripts/dragula/dist/dragula.min.js"></script>
+    <script>
 
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
